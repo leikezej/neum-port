@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" href="assets/About.css"> -->
+  <title> ABOUT ME </title>
+    <style>    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: calibri;
+            outline:  none;
+        }
+        
+        body {
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            /* background: #000; */
+        }
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:150px;
+            /* color: #121212; */
+             text-shadow: 
+                        2px 2px 2px rgb(255,255,255),
+                          -2px -2px 2px 	rgb(255,255,255);
+  
+        }
+
+                .btn-16 {
+                    border: 2px solid red;
+                    height: 50px;
+                    width: 50%;
+                    color: #000;
+                    
+                  }
+                  .btn-16:after {
+                    position: absolute;
+                    content: "";
+                    width: 0;
+                    height: 20%;
+                    direction: rtl;
+                    z-index: -1;
+                    box-shadow:
+                     -7px -7px 20px 0px #fff9,
+                     -4px -4px 5px 0px #fff9,
+                     7px 7px 20px 0px #0002,
+                     4px 4px 5px 0px #0001;
+                    transition: all 0.3s ease;
+                  }
+                  .btn-16:hover {
+                    color: #000;
+                  }
+                  .btn-16:hover:after {
+                    left: auto;
+                    right: 0;
+                    width: 40%;
+                  }
+                  .btn-16:active {
+                    top: 2px;
+                  }
+    </style>
+
+</head>
+<body>
+  
+        <!-- <h1> ABOUT ME </h1>       -->
+        
+            <button class="btn-16">hahaha</button>
+            <a href="#" class="btn-16"> hahahaha</a>
+</body>
+</html>

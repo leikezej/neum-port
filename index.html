@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="id=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JezePort </title>
+    <link rel = "icon" href = 
+      "https://i.postimg.cc/5y5Y5yZ9/giphy.gif" 
+        type = "image/x-icon">
+  <link rel="stylesheet" href="assets/css/CSS.CSS">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	
+</head>
+<body>
+<section id="intro">
+     <div class="overflow-h">
+	 <button class="explore" onclick="window.location.href='about.html'" >About Me</button>
+	 <button class="explore" onclick="window.location.href='skills.html'" >Skills</button>
+	 <button class="explore" onclick="window.location.href='cards.html'" >Recent Works</button>
+	 <button class="explore" onclick="window.location.href='team.html'" >My Teams</button>
+	 <button class="explore" onclick="window.location.href='contact.html'" >Contact Me</button>
+      <div class="container-fluid">
+        <ul id="scene" class="scene border fill">
+          <li class="layer expand-width" data-depth="0.15"><img src="assets/img/intro-layer-1.png" alt="" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.25"><img src="assets/img/intro-layer-2.jpg" width="100%" height="100%" alt="" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.00"><div class="jeps-bar"></div></li>
+          <li class="layer expand-width" data-depth="0.40"><img src="assets/img/intro-layer-3.png" alt="" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.55"><img src="assets/img/intro-layer-4.png" class="img-responsive" /></li>
+          <li class="layer expand-width" data-depth="0.65">
+            <img class="my-logo" src="assets/icons/sjep.png" alt="logo" />
+            <div class="my-info" data-parallax='{"y": 100}'>
+              <div class="text-3">And I'm a <span class="typing"></span></div>
+              <h1 class="name">Jezekiel</h1>
+            </div>
+          </li>
+          <li class="layer expand-width" data-depth="1.40"><img src="assets/img/intro-layer-5.png" alt="" class="img-responsive" /></li>
+        </ul>
+
+      </div>
+	  	 <button class="explore" onclick="window.location.href='resume.html'">Download CV</button>
+    </div>
+</section>
+    
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/parallax.hover.js"></script>
+
+<script>
+var scene = document.getElementById('scene');
+
+if (typeof Parallax == 'function')
+  var parallax = new Parallax(scene);
+
+if (typeof $.fn.parallax == 'function')
+  $('.parallax-window').parallax();
+
+</script>
+</body>
+</html>

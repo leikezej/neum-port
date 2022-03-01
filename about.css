@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*, html,body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.wrapper{
+ height: 390vh;
+ margin: 5px;
+ padding: 5px;
+ background: #ebf5fc;
+ border: 2px solid red;
+}
+
+.personal{
+    height: 25%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #000;
+}
+
+.row-1{
+    height: 30%;
+    border: 2px solid cyan;
+}
+.container{
+    /* background: #c8c1be; */
+    background: #ebf5fc;
+    margin-top: 25px;
+    height: 10%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.large-profile {
+    background: url('assets/illust/about.png');
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 50%; */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.container{
+    /* height: 80%; */
+    /* display: grid; */
+    /* grid-row-gap: 20px; */
+    transform: (-50%, -50%);
+    /* border: 2px solid red; */
+    
+}
+/* <!-- HTML ANIMATION --> */
+.html-container{
+    height: 80px;
+    width: 600px;
+    text-decoration: none;
+
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    border-radius: 60%;
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color: #de4b25;
+} */
+.html-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.html-loader{
+    position: absolute;
+    background: #de4b25;
+    height: 30px;
+    width: 96%;
+    border-radius: 40px;
+    animation-name: html-anim;
+    animation-duration: 4s;
+}
+.html-container .percent{
+    margin: 15px;
+    color: #de4b25;
+}
+@keyframes html-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- CSS ANIMATION --> */
+.css-container{
+    height: 80px;
+    width: 600px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1),
+                    -5px -5px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    border-radius: 60%;
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color: #252bde;
+} */
+.css-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.css-loader{
+    position: absolute;
+    background: #252bde;
+    height: 30px;
+    width: 96%;
+    border-radius: 40px;
+    animation-name: css-anim;
+    animation-duration: 4s;
+}
+.css-container .percent{
+    margin: 15px;
+    color: #252bde;
+}
+@keyframes css-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- JAVASCRIPT ANIMATION --> */
+.js-container{
+    height: 80px;
+    width: 600px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1),
+                    -5px -5px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    /* border-radius: 60%; */
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color: #252bde;
+} */
+.js-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.js-loader{
+    position: absolute;
+    background: #e8d90e;
+    height: 30px;
+    width: 90%;
+    border-radius: 40px;
+    animation-name: js-anim;
+    animation-duration: 4s;
+}
+.js-container .percent{
+    margin: 15px;
+    color: #e8d90e;
+}
+@keyframes js-anim{
+    from{
+        width: 0%;
+    }
+}
+
+
+/* <!-- REACTJS ANIMATION --> */
+.reactjs-container{
+    height: 80px;
+    width: 600px;
+    background: #ebf5fc;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1),
+                    -5px -5px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    border-radius: 60%;
+    position: left;
+    margin-left: -40px;
+}
+
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color: #252bde;
+} */
+.reactjs-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.reactjs-loader{
+    position: absolute;
+    background: cyan;
+    height: 30px;
+    width: 85%;
+    border-radius: 40px;
+    animation-name: reactjs-anim;
+    animation-duration: 4s;
+}
+.reactjs-container .percent{
+    margin: 15px;
+    color: cyan;
+}
+@keyframes reactjs-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- VUEJS ANIMATION --> */
+.vue-container{
+    height: 80px;
+    width: 600px;
+    background: #ebf5fc;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1),
+                    -5px -5px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    border-radius: 60%;
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color: #rgb(42, 199, 22);
+} */
+.vue-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.vue-loader{
+    position: absolute;
+    background: rgb(42, 199, 22);
+    height: 30px;
+    width: 60%;
+    border-radius: 40px;
+    animation-name: vue-anim;
+    animation-duration: 4s;
+}
+.vue-container .percent{
+    margin: 15px;
+    color: rgb(42, 199, 22);
+}
+@keyframes vue-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- ANGULAR--> */
+.angular-container{
+    height: 80px;
+    width: 600px;
+    background: #ebf5fc;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.1),
+                    -5px -5px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    border-radius: 60%;
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color: #rgb(237, 13, 80);
+} */
+.angular-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.angular-loader{
+    position: absolute;
+    background: rgb(237, 13, 80);
+    height: 30px;
+    width: 70%;
+    border-radius: 40px;
+    animation-name: angular-anim;
+    animation-duration: 4s;
+}
+.angular-container .percent{
+    margin: 15px;
+    color: rgb(237, 13, 80);
+}
+@keyframes angular-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- NODEJS--> */
+.node-container{
+    height: 80px;
+    width: 600px;
+    /* background: #ebf5fc;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1); */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    border-radius: 60%;
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color: rgb(39, 237, 13);
+} */
+.node-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.node-loader{
+    position: absolute;
+    background: rgb(39, 237, 13);
+    height: 30px;
+    width: 80%;
+    border-radius: 40px;
+    animation-name: node-anim;
+    animation-duration: 4s;
+}
+.node-container .percent{
+    font-weight: bold;
+    font-family: 'Poppins' sans-serif;
+    margin: 15px;
+    color: rgb(39, 237, 13);
+}
+@keyframes node-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- AWS--> */
+.aws-container{
+    height: 80px;
+    width: 600px;
+    background: #ebf5fc;
+    /* box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1); */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    border-radius: 60%;
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color:rgb(248, 240, 7);
+} */
+.aws-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.aws-loader{
+    position: absolute;
+    background: rgb(248, 240, 7);
+    height: 30px;
+    width: 87%;
+    border-radius: 40px;
+    animation-name: aws-anim;
+    animation-duration: 4s;
+}
+.aws-container .percent{
+    font-weight: bold;
+    font-family: 'Poppins' sans-serif;
+    margin: 15px;
+    color: rgb(248, 240, 7);
+}
+@keyframes aws-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- MYSQL--> */
+.mysql-container{
+    height: 80px;
+    width: 600px;
+    background: #ebf5fc;
+    /* box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1); */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color:rgb(248, 192, 7);
+} */
+.mysql-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.mysql-loader{
+    position: absolute;
+    background: rgb(248, 192, 7);
+    height: 30px;
+    width: 92%;
+    border-radius: 40px;
+    animation-name: mysql-anim;
+    animation-duration: 4s;
+}
+.mysql-container .percent{
+    font-weight: bold;
+    font-family: 'Poppins' sans-serif;
+    margin: 15px;
+    color: rgb(248, 192, 7);
+}
+@keyframes mysql-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/* <!-- MONGODB--> */
+.mongo-container{
+    height: 80px;
+    width: 600px;
+    background: #ebf5fc;
+    /* box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1); */
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+     /* height: 100%; */
+    position: left;
+    margin-left: -40px;
+}
+/* .js-container h2{
+    margin: 20px 10px 20px;
+    color:rgb(7, 248, 87);
+} */
+.mongo-container .loader{
+    margin: 10px;
+    height:30px;
+    width: 400px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                    6px 6px 20px rgba(0,0,0,0.1),
+                    inset -6px -6px 20px rgba(255,255,255,1),
+                    inset 6px 6px 20px rgba(0,0,0,0.1);
+    border-radius: 40px;
+    position: relative;
+}
+.mongo-loader{
+    position: absolute;
+    background: rgb(7, 248, 87);
+    height: 30px;
+    width: 92%;
+    border-radius: 40px;
+    animation-name: mongo-anim;
+    animation-duration: 4s;
+}
+.mongo-container .percent{
+    font-weight: bold;
+    font-family: 'Poppins' sans-serif;
+    margin: 15px;
+    color: rgb(7, 248, 87);
+}
+@keyframes mongo-anim{
+    from{
+        width: 0%;
+    }
+}
+
+/*=================================================================*/
+/*                      SECTIONS                             
+/*=================================================================*/

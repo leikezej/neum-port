@@ -1,0 +1,45 @@
+Center an Image
+To center an image, set left and right margin to auto and make it into a block element:
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+// white buttons
+.container .card .contentBx a{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 40px;
+    color: #32a3b1;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: -4px -4px 15px rgba(255,255,255,1),
+                    4px 4px 15px rgba(0,0,0,0.1);
+}
+.container .card .contentBx a:hover{
+    box-shadow: inset -4px -4px 10px rgba(255,255,255,0.5),
+                 inset 4px 4px 10px rgba(0,0,0,0.1);
+ }
+ 
+ 
+ // smooth drop-shadows
+ <div class="box">
+</div
+.box {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+  min-height: 200px;
+  width: 50vw;
+  margin: 100px auto;
+  background: white;
+  border-radius: 5px;
+}

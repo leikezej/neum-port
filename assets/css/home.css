@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.box {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  min-height: 400px;
+  width: 90vw;
+  margin: 100px auto;
+  background: #c5c5c5;
+  border-radius: 5px;
+}
+
+nav{
+  width: 100%;
+  padding: 12px 0;
+  box-shadow: -3px -3px 7px #20b2aa,
+              3px 3px 5px #00ffff;
+}
+nav .menu{
+  max-width: 1270px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .logo a{
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+}
+.menu ul a{
+  margin:0 8px;
+  border-radius: 8%;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-flex;
+  padding: 10px 12px;
+  /* box-shadow: -1px -1px 3px #ffffff,
+            1px 1px 3px #ceced1; */
+  position: relative;
+  transition: all 0.3s ease;
+}
+.menu ul a:hover:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 50%;
+  box-shadow: inset -1px -1px 5px #7fffd4,
+              inset 1px 1px 3px #20b2aa;
+}
+
+.menu ul a:hover{
+  color: #00ced1;
+}
+
+nav label.button{
+  color: #34344b;
+  font-size: 18px;
+  cursor: pointer;
+  display:  none;
+}
+
+nav label.cancel{
+  position: absolute;
+  top: 25px;
+  right: 300x;
+}
+
+#check{
+  display: none;  
+}
+
+@media (max-width:940px) {
+  .menu ul{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    max-width: 400px;
+    padding-top: 45px;
+    height: 100%;
+    background: #7fffd4;
+    box-shadow: 0 5px 10px #20b2aa;
+    z-index: 12;
+    transition: all 0.3s ease;
+  }
+.menu ul a{
+  display: block;
+  font-size: 23px;
+  width: 100%;
+  margin-top: 30px;
+  box-shadow: none;
+  text-align: center;
+}
+.menu ul a:hover:before{
+  box-shadow: none;
+}
+nav label.bars{
+  display: block;
+}
+#check:checked ~ label.bars{
+  display: none;
+}
+#check:checked ~ ul label.cancel{
+ display: block;
+}
+#check:checked ~ ul{
+  left: 0;
+}
+}
+
+fa{
+ margin: 2px;
+ justify-content: center;
+ padding: 3px;
+}
+
+.about{
+  height: 500px;
+
+}

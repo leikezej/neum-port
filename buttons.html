@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>buttons</title>
+        <link rel="stylesheet" href="buttons.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <div class="icons">
+        
+            <li><a href="#"><span class="fab fa-home"></span></a></li>
+            <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+            
+            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+            
+            <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+            
+            <li><a href="#"><span class="fab fa-github"></span></a></li>
+            
+            <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+            
+            <li><a href="#"><span class="fab fa-google"></span></a></li>
+            
+            <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+        </div>
+        
+        <script>
+            $('.icons li').click(function(){
+                $(this).toggleClass("active");
+                $('.icon li a').toggleClass("active");
+            });
+        </script>
+        
+    </body>
+</html>

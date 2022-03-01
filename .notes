@@ -1,0 +1,139 @@
+:root{
+ --background-primary
+ --background-secondary
+ 
+ 
+}
+
+
+#22F2AA = neon green
+#00FFFF = lively greenish-blue 'cyan' 
+#c6c6c6 =
+
+Dark charcoal  #333333 rgb(51,51,51)
+Jet            #343434 rgb(52,52,52)
+Vampire black  #080808 rgb(8,8,8)
+Smoky Black    #100c08 rgb(16,12,8)
+
+
+black	          #000000	rgb(0,0,0)	hsl(0,0%,0%)
+darkslategrey  	#2f4f4f	rgb(47,79,79)	hsl(180,25%,25%)
+
+cyan          	 #00ffff	rgb(0,255,255)	hsl(180,100%,50%)
+lightcyan      	 #e0ffff	rgb(224,255,255)	hsl(180,100%,94%)
+paleturquoise 	 #afeeee	rgb(175,238,238)	hsl(180,65%,81%)
+powderblue     	 #b0e0e6	rgb(176,224,230)	hsl(187,52%,80%)
+darkturquoise    #00ced1	rgb(0,206,209)	hsl(181,100%,41%)
+darkcyan       	 #008b8b	rgb(0,139,139)	hsl(180,100%,27%)
+teal             #008080	rgb(0,128,128)	hsl(180,100%,25%)
+aquamarine    	 #7fffd4	rgb(127,255,212)	hsl(160,100%,75%)
+mediumaquamarine #66cdaa	rgb(102,205,170)	hsl(160,51%,60%)
+turquoise	       #40e0d0	rgb(64,224,208)	hsl(174,72%,56%)
+mediumturquoise	 #48d1cc	rgb(72,209,204)	hsl(178,60%,55%)
+cadetblue     	 #5f9ea0	rgb(95,158,160)	hsl(182,25%,50%)
+lightseagreen	   #20b2aa	rgb(32,178,170)	hsl(177,70%,41%)
+
+grey            	#808080	rgb(128,128,128)	hsl(0,0%,50%)
+gainsboro       	#dcdcdc	rgb(220,220,220)	hsl(0,0%,86%)
+lightgrey       	#d3d3d3	rgb(211,211,211)	hsl(0,0%,83%)
+silver	          #c0c0c0	rgb(192,192,192)	hsl(0,0%,75%)
+darkgrey        	#a9a9a9	rgb(169,169,169)	hsl(0,0%,66%)
+lightslategrey  	#778899	rgb(119,136,153)	hsl(210,14%,53%)
+slategrey       	#708090	rgb(112,128,144)	hsl(210,13%,50%)
+dimgrey         	#696969	rgb(105,105,105)	hsl(0,0%,41%)
+silver          	#c0c0c0	rgb(192,192,192)	hsl(0,0%,75%)
+ghostwhite      	#f8f8ff	rgb(248,248,255)	hsl(240,100%,99%)
+whitesmoke      	#f5f5f5	rgb(245,245,245)	hsl(0,0%,96%)
+gainsboro	        #dcdcdc	rgb(220,220,220)	hsl(0,0%,86%)
+
+white	           #ffffff	rgb(255,255,255)	hsl(0,0%,100%)
+ghostwhite	     #f8f8ff	rgb(248,248,255)	hsl(240,100%,99%)
+snow             #fffafa	rgb(255,250,250)	hsl(0,100%,99%)
+mintcream	       #f5fffa	rgb(245,255,250)	hsl(150,100%,98%)
+aliceblue     	 #f0f8ff	rgb(240,248,255)	hsl(208,100%,97%)
+honeydew      	 #f0fff0	rgb(240,255,240)	hsl(120,100%,97%)
+azure         	 #f0ffff	rgb(240,255,255)	hsl(180,100%,97%)
+lavenderblush	   #fff0f5	rgb(255,240,245)	hsl(340,100%,97%)
+seashell      	 #fff5ee	rgb(255,245,238)	hsl(25,100%,97%)
+floralwhite      #fffaf0	rgb(255,250,240)	hsl(40,100%,97%)
+ivory            #fffff0	rgb(255,255,240)	hsl(60,100%,97%)
+whitesmoke	     #f5f5f5	rgb(245,245,245)	hsl(0,0%,96%)
+oldlace	         #fdf5e6	rgb(253,245,230)	hsl(39,85%,95%)
+linen          	 #faf0e6	rgb(250,240,230)	hsl(30,67%,94%)
+beige	           #f5f5dc	rgb(245,245,220)	hsl(60,56%,91%)
+antiquewhite  	 #faebd7	rgb(250,235,215)	hsl(34,78%,91%)
+
+
+.w3-flat-turquoise
+{color:#fff;background-color:#1abc9c}
+.w3-flat-emerald
+{color:#fff;background-color:#2ecc71}
+.w3-flat-peter-river
+{color:#fff;background-color:#3498db}
+.w3-flat-amethyst
+{color:#fff;background-color:#9b59b6}
+.w3-flat-wet-asphalt
+{color:#fff;background-color:#34495e}
+.w3-flat-green-sea
+{color:#fff;background-color:#16a085}
+.w3-flat-nephritis
+{color:#fff;background-color:#27ae60}
+.w3-flat-belize-hole
+{color:#fff;background-color:#2980b9}
+.w3-flat-wisteria
+{color:#fff;background-color:#8e44ad}
+.w3-flat-midnight-blue
+{color:#fff;background-color:#2c3e50}
+.w3-flat-sun-flower
+{color:#fff;background-color:#f1c40f}
+.w3-flat-carrot
+{color:#fff;background-color:#e67e22}
+.w3-flat-alizarin
+{color:#fff;background-color:#e74c3c}
+.w3-flat-clouds
+{color:#000;background-color:#ecf0f1}
+.w3-flat-concrete
+{color:#fff;background-color:#95a5a6}
+.w3-flat-orange
+{color:#fff;background-color:#f39c12}
+.w3-flat-pumpkin
+{color:#fff;background-color:#d35400}
+.w3-flat-pomegranate
+{color:#fff;background-color:#c0392b}
+.w3-flat-silver
+{color:#000;background-color:#bdc3c7}
+.w3-flat-asbestos
+{color:#fff;background-color:#7f8c8d}
+height="100%" width="100%" 
+				<button class="explore" onclick="window.location.href='home.html'">Explore Me</button>
+
+deep space gradient
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #434343, #000000);
+	background: linear-gradient(to right, #434343, #000000);
+	
+.one-edge-shadow {
+  box-shadow: 0 8px 6px -6px black;
+}
+	
+box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
+
+box-shadow: var(--h1) var(--v1) var(--blur1) var(--color-dark), 
+            var(--h2) var(--v2) var(--blur2) var(--color-light);
+
+.element {
+  background: linear-gradient(var(--bg-angle), var(--bg-start), var(--bg-end));
+  box-shadow: var(--h1) var(--v1) var(--color-dark), 
+              var(--h2) var(--v2) var(--color-light);
+}
+            
+Light Source	Positive Values	Negative Values
+Top Left	       --h1, --v1	--h2, --v2
+Top Right	       --h2, --v1	--h1, --v2
+Bottom Left	       --h1, --v2	--h2, --v1
+Bottom Right	   --h2, --v2	--h1, --v1
+
+	
+I'm a Tunisian based web designer & front‑end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+
+digital influence

@@ -1,0 +1,94 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background: #ebf5fc; 
+    border: 2px solid blue;
+
+}
+
+.grid-child {
+    height: 800px;
+}
+
+.grid-childs  {
+    height: 800px;
+    height: 100%;
+}
+
+:root {
+    --background-color-dark: #212121;
+    --background-primary-color: #ebf5fc;
+    --font: sans-serif;
+  }
+  
+  /* Timeline Container */
+  .timeline {
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  align-items: center; 
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: -6px -6px 20px rgba(0,0,0,0.1),
+                      8px 8px 25px rgba(0,0,0,0.1);
+  }
+  
+  .timeline:hover{
+    box-shadow: inset -6px -6px 10px rgba(0,0,0,0.1),
+    inset 6px 6px 20px rgba(0,0,0,0.1);
+  }
+  
+  /* Outer Layer with the timeline border */
+  .outer {
+    border-left: 2px solid #333;
+    margin-left: 40px;
+  }
+  
+  /* Card container */
+  .card {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 20px;
+    margin-left: 28px;
+    background: #ebf5fc;
+    color: gray;
+    height: 130px;
+    border-radius: 5px;
+    max-width: 600px;
+    box-shadow: -4px -4px 15px rgba(0,0,0,0.1),
+                    4px 4px 15px rgba(0,0,0,0.1);
+  }
+  .card:hover{
+    box-shadow: inset -4px -4px 10px rgba(0,0,0,0.1),
+    inset 4px 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Information about the timeline */
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Title of the card */
+  .title {
+    color: orangered;
+    position: relative;
+  }
+  
+  /* Timeline dot  */
+
+  .fa-solid {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: absolute;
+    width: 80px;
+    height: 85px;
+    left: -30px;
+    margin-top: -50px;
+  }

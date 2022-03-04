@@ -7,14 +7,18 @@
 .wrapper{
   margin: 10px;
   padding: 10px;
-  background: #e5e5e5;
-  height: 100vh;
+  /* border: 1px solid #c6c6c6; */
+  background: #ebf5fc;
+  box-shadow: -6px -6px  10px rgba(255,255,255,1),
+                  6px 6px  10px rgba(0,0,0,0.1);
+  /* height: 100vh; */
   width: 90%;
-  border: 2px solid red
+  /* border: 2px solid red */
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background:#ebf5fc;
 }
 
 .column {
@@ -35,14 +39,14 @@ body {
 .card {
   margin-top: 20%;
   margin-left: 2%;
-  background: #c6c6c6;
-  box-shadow: inset -6px -6px  10px rgba(255,255,255,1),
-  inset 6px 6px  10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  box-shadow: inset -6px -6px 10px rgba(255,255,255,1) ,
+  inset 6px 6px 20px rgba(0,0,0,0.1);
   text-align: center;
-  background-color: #e5e5e5;
+  /* background-color: #c6c6c6; */
    border-radius: 10px;
   height: 70vh;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 .card img{
@@ -51,19 +55,18 @@ body {
 }
 img{
   margin-top: -15%;
-  background: #e5e5e5;
-  box-shadow:  inset -6px -6px  10px rgba(255,255,255,1),
-                 inset 6px 6px  10px rgba(0,0,0,0.1);
-  
+  background: #ebf5fc;
+  box-shadow:  -6px -6px 10px rgba(0,0,0,0.1) ,
+   6px 6px 20px rgba(0,0,0,0.1);
 }
 
-img{
+/* img{
 border-radius: 50%;
 box-shadow:  inset -6px -6px  10px rgba(255,255,255,1),
 inset 6px 6px  10px rgba(0,0,0,0.1);
-}
+} */
 
-.social{
+/* .social{
   width: 80%;
   height: 280px;
   align-items: center;
@@ -96,4 +99,212 @@ a .fa{
     display: block;
     margin-bottom: 20px;
   }
+} */
+.button {
+  margin: 20px;
+  margin-top: 100px;
+  outline: none;
 }
+.custom-btn {
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 200px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+/* 1 */
+.btn-1 {
+  border: none;
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+}
+
+.btn-1:hover {
+   /* position: absolute; */
+   /* content: " "; */
+   /* top: 0;
+   left: 0; */
+   /* z-index: -1; */
+   /* width: 100%;
+   height: 100%; */
+   transition: all 0.3s ease;
+   /* -webkit-transform: scale(.1);
+   transform: scale(.1); */
+   color: #000;
+   box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+   -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+inset -4px -4px 6px 0 rgba(255,255,255,.5),
+inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+/* .btn-1:after {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(.1);
+  transform: scale(.1);
+} */
+
+.icons {
+  margin: 0 auto;
+  height: 40px;
+  margin-top: 150px;
+  
+  width: 400px;
+  /* border: 2px solid red; */
+  
+
+}
+
+.icons a{
+  /* margin: 10px;
+  padding: 10px; */
+  flex: 1;
+  color: #000;
+  /* position: relative; */
+  border-radius: 20%;
+
+  margin: 0 10px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 25px;
+}
+
+.fb{
+  /* border: 1px solid red; */
+  /* border -radius: 30%; */
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+  border-radius: 80%;
+}
+
+.fb:hover{
+  color: #4267B2;
+}
+
+.twitter{
+  /* border: 1px solid red; */
+  /* border -radius: 30%; */
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+  border-radius: 80%;
+}
+
+.twitter:hover{
+  color: #1DA1F2;
+}
+
+.insta{
+  /* border: 1px solid red; */
+  /* border -radius: 30%; */
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+  border-radius: 80%;
+}
+.insta:hover{
+  color: #E1306C;
+}
+.git{
+  /* border: 1px solid red; */
+  /* border -radius: 30%; */
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+  border-radius: 80%;
+}
+.git:hover{
+
+  color: #333;
+
+}
+.yt{
+  /* border: 1px solid red; */
+  /* border -radius: 30%; */
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow:
+  -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0px #fff9,
+  7px 7px 20px 0px #0002,
+  4px 4px 5px 0px #0001;
+  border-radius: 80%;
+}
+
+.yt:hover{
+  color: #ff0000;
+}
+
+.icons a:hover{
+    box-shadow: 4px -4px 6px 0px rgba(255,255,255,0.5),
+                -4px -4px 6px 0px rgba(116,125,136,0.2),
+                inset -4px -4px 6px 0px rgba(255,255,255,0.5),
+                inset 4px 4px 6px 0px rgba(116,125,136,0.3);
+}
+.icons a i{
+  width: 10%;
+  font-size: 25px;
+}
+
+/* .icons a:hover i{
+  transform: scale(0.9);
+}
+.icons a.fb i{
+  color: #4267B2;
+}
+.icons a.twitter i{
+  color: #1DA1F2;
+}
+.icons a.insta i{
+  color: #E1306C;
+}
+.icons a.git i{
+  color: #333;
+}
+.icons a.yt i{
+  color: #ff0000;
+} */
+.fab{}
